@@ -17,7 +17,7 @@ body {
 
 	h1 {
 		transform: translateX(45%);
-		margin-top: 80px;
+		margin-top: 110px;
 	}
 
 	.container {
@@ -30,7 +30,9 @@ body {
 		border-bottom: 1px solid black;
 		width: 100px;
 		padding: 5px;
+		position: relative;
 		float: right;
+		transform: translate(1px,-1px);
 		text-align: center;
 	}
 
