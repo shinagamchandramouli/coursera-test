@@ -1,0 +1,40 @@
+*{
+	box-sizing: border-box;
+}
+
+/*header*/
+
+.navbar{
+	background-color: orange;
+	border: 0;
+	padding-top: 2px;
+	padding-bottom: 4px;
+}
+
+.navbar-header > .navbar-brand {
+	font-weight: bold;
+	font-size: 2em;
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li> a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li> a:hover {
+	color: red;
+}
+
+#chicken, #Beef, #shushi {
+	background-color: lightblue;
+	border: solid black 1px;
+	margin: 15px 5px;
+}
+
+body > .container-fluid {
+	margin-right: 10px;
+}
+
+h1 {
+	font-weight: bold;
+}
